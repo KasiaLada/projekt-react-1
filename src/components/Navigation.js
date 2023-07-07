@@ -1,12 +1,12 @@
 import './Navigation.css';
 
-const App = () => {
+const Navigation = () => {
 	return (
 		<header>
-			<div className='container'>
-				<div className='navigation'>
-					<p className="my">moja firma</p>
-					<ul className = "navigation-list">
+			<div className='navigation'>
+				<div className='container navigation-content'>
+					<p className='my'>moja firma</p>
+					<ul className='navigation-list'>
 						<li>
 							<p>o nas</p>
 						</li>
@@ -23,4 +23,4 @@ const App = () => {
 	);
 };
 
-export default App;
+export default Navigation;

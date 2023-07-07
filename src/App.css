@@ -1,0 +1,11 @@
+.container {
+	width: 980px;
+  margin: auto;
+  }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+  

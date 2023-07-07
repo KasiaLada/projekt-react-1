@@ -1,0 +1,45 @@
+.about {
+	max-height: 650px;
+	background-color: #f1f1f1;
+}
+.specialists {
+	color: #152d41;
+
+	margin-bottom: 50px;
+	padding-top: 50px;
+}
+.specialist {
+	display: flex;
+	align-items: center;
+
+	gap: 50px;
+}
+.member-name {
+	margin-bottom: 16px;
+}
+.specialist:nth-child(odd) {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding-bottom: 40px;
+}
+
+.specialist .image {
+	background-image: url(../images/woman-2593366_1280.jpg);
+	min-width: 200px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background-size: cover;
+}
+.specialist:nth-child(odd) .image {
+	background-image: url(../images/woman-657753_1280.jpg);
+	min-width: 200px;
+	aspect-ratio: 1;
+	border-radius: 50%;
+
+	background-size: cover;
+}
+
+.specialist:nth-child(odd) .member {
+	text-align: right;
+}
