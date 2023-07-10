@@ -1,16 +1,11 @@
 .main-block {
-	/* width :100%vw; */
-	/* max-height: 580px; */
-	/* background: url('/src/images/abstract-1278017_1280.jpg'); */
 	max-height: 600px;
-	/* max-width: 1280px; */
 	flex-direction: column;
 	padding-top: 280px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	padding-bottom: 280px;
 	background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%),
 		url('/src/images/hills-615429_1280.jpg');
@@ -20,7 +15,7 @@
 .main-text {
 	color: #ffffff;
 	size: 36px;
-	/* margin-right: 50px; */
+	font-weight: 700;
 	margin-bottom: 50px;
 	max-width: 500px;
 }
@@ -29,6 +24,7 @@
 	size: 18px;
 	margin-bottom: 50px;
 	color: #ffffff;
+	font-weight: 700;
 }
 
 .link-button {

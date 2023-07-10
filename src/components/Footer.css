@@ -1,0 +1,31 @@
+.footer {
+	background-color: #4e4e4e;
+	min-height: 71px;
+	display: flex;
+}
+
+.company-name {
+	color: #fff;
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	justify-content: center;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+@media (min-width: 991px) {
+	.footer-container {
+		flex-direction: row;
+	}
+}
+
+.footer-icons {
+	display: flex;
+	gap: 10px;
+}

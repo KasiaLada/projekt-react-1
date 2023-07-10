@@ -1,20 +1,40 @@
 .offer {
 	background-color: #405d78;
+	display: flex;
 }
 
 .box-wrapper {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	gap: 63px;
+	justify-content: center;
+	padding-bottom: 64px;
 }
 
 .box {
 	display: flex;
-	width: 190px;
+	width: 200px;
 	aspect-ratio: 1;
 	background-color: #f1f1f1;
+	color: #000;
 	position: relative;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: Roboto;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	transition: 0.5s;
 }
+
+@media (min-width: 991px) {
+	.box:hover {
+		transform: scale(1.05);
+	}
+}
+
 .new {
 	position: absolute;
 	top: -10px;
@@ -26,5 +46,7 @@
 }
 .offer-title {
 	color: #ffffff;
-	padding: 50x 0;
+	padding-top: 50px;
+	padding-bottom: 82px;
+	font-size: 36px;
 }

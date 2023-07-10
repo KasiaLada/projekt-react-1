@@ -1,25 +1,23 @@
 .about {
-	max-height: 650px;
 	background-color: #f1f1f1;
 }
 .specialists {
 	color: #152d41;
-
 	margin-bottom: 50px;
 	padding-top: 50px;
 }
 .specialist {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-
 	gap: 50px;
+	padding-bottom: 50px;
 }
 .member-name {
 	margin-bottom: 16px;
 }
 .specialist:nth-child(odd) {
 	display: flex;
-	flex-direction: row-reverse;
 	align-items: center;
 	padding-bottom: 40px;
 }
@@ -40,6 +38,15 @@
 	background-size: cover;
 }
 
-.specialist:nth-child(odd) .member {
-	text-align: right;
+@media (min-width: 960px) {
+	.specialist {
+		flex-direction: row;
+	}
+
+	.specialist:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+	.specialist:nth-child(odd) .member {
+		text-align: right;
+	}
 }

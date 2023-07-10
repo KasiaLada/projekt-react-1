@@ -10,14 +10,19 @@ const Offer = () => {
 		{ label: 'oferta 6', isNew: false },
 	];
 	return (
-		<section className='offer'>
+		<section id='offer' className='offer'>
 			<div className='container'>
 				<h2 className='offer-title'>Czym zajmuje się nasza firma? </h2>
 				<ul className='box-wrapper'>
 					{items.map((offer) => (
 						<li className='box'>
 							{offer.label}
-							{offer.isNew ? <div className='new'></div> : null}
+							{offer.isNew ? (
+								<>
+									<div>nowość</div>
+									<div className='new'></div>
+								</>
+							) : null}
 						</li>
 					))}
 				</ul>

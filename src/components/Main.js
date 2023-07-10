@@ -10,7 +10,7 @@ const Main = () => {
 					</h1>
 					<h3 className='h3-text'>Nie wierz nam na słowo - sprawdź</h3>
 					<div className='main-button'>
-						<a href='#services' className='link-button'>Oferta</a>
+						<a href='#offer' className='link-button'>Oferta</a>
 					</div>
 				</div>
 			</div>
