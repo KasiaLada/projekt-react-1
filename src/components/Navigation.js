@@ -8,15 +8,19 @@ const Navigation = () => {
 					<p className='my'>moja firma</p>
 					<ul className='navigation-list'>
 						<li>
-							<a href='#about' className='nav-about'>o nas</a>
+							<a href='#about' className='nav-link'>
+								o nas
+							</a>
 						</li>
 						<li>
-							<a href='#offer' className='offer'>
+							<a href='#offer' className='nav-link'>
 								oferta
 							</a>
 						</li>
 						<li>
-							<a href="#contact" className='contact'>kontakt</a>
+							<a href='#contact' className='nav-link nav-link-disabled'>
+								kontakt
+							</a>
 						</li>
 					</ul>
 				</div>

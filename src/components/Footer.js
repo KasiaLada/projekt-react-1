@@ -8,7 +8,7 @@ const Footer = () => {
 			<div className='container footer-container'>
 				<p className='company-name'>Nazwa firmy - wszelkie prawa zastrzeżone, 2019</p>
 				<div className='footer-icons'>
-					<FontAwesomeIcon icon={faTwitter} color='white' />
+					<FontAwesomeIcon icon={faTwitter} color='white' className='twitter' />
 					<FontAwesomeIcon icon={faFacebook} color='white' />
 				</div>
 			</div>

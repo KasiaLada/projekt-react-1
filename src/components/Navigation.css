@@ -25,19 +25,12 @@
 	font-size: 18px;
 	transition: 1s;
 }
-.offer {
+.nav-link {
 	text-decoration: none;
 	color: #ffffff;
-	
 }
-.contact {
-	color: #ffffff;
+.nav-link-disabled {
 	cursor: not-allowed;
-	text-decoration: none;
-}
-.nav-about {
-	text-decoration: none;
-	color: #ffffff;
 }
 
 @media (min-width: 991px) {
