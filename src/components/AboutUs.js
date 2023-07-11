@@ -6,7 +6,7 @@ const AboutUs = () => {
 			<div className='container'>
 				<h2 className='specialists'>Nasi specjaliści</h2>
 				<section className='specialist'>
-					<div class='image'>{/* <img className='woman' src='images/woman-657753_1280.jpg' alt='' /> */}</div>
+					<div class='image'></div>
 					<div className='member'>
 						<h3 className='member-name'>Imię Nazwisko [dział]</h3>
 						<p >

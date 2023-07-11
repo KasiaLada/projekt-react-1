@@ -5,13 +5,16 @@
 }
 
 .company-name {
+	display: flex;
+	justify-content: center;
+	padding-top: 38px;
+	padding-bottom: 18px;
 	color: #fff;
 	font-family: Roboto;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: normal;
-	justify-content: center;
 }
 
 .footer-container {
@@ -29,4 +32,11 @@
 	display: flex;
 	gap: 10px;
 	font-size: 31px;
+	justify-content: center;
+	padding-bottom: 42px;
 }
+/* @media (min-width: 991px) {
+	.footer-icons {
+		padding-bottom: none;
+	}
+} */

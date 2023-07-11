@@ -29,16 +29,6 @@ const Offer = () => {
 			</div>
 		</section>
 	);
-	// return (
-	// 	<ul>
-	// 		<li>Usługa 1 (nowość)</li>
-	// 		<li>Usługa 2</li>
-	// 		<li>Usługa 3</li>
-	// 		<li>Usługa 4</li>
-	// 		<li>Usługa 5</li>
-	// 		<li>Usługa 6</li>
-	// 	</ul>
-	// );
 };
 
 export default Offer;
