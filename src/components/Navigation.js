@@ -2,7 +2,7 @@ import './Navigation.css';
 
 const Navigation = () => {
 	return (
-		<header>
+		<nav>
 			<div className='navigation'>
 				<div className='container navigation-content'>
 					<p className='my'>moja firma</p>
@@ -25,7 +25,7 @@ const Navigation = () => {
 					</ul>
 				</div>
 			</div>
-		</header>
+		</nav>
 	);
 };
 

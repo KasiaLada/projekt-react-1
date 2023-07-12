@@ -1,8 +1,7 @@
 import './reset.css';
 import './App.css';
 import Navigation from './components/Navigation';
-import Main from './components/Main';
-// import Reset from './utils/Reset.css';
+import Header from './components/Header';
 import AboutUs from './components/AboutUs';
 import Footer from './components/Footer';
 
@@ -10,13 +9,15 @@ import Offer from './components/Offer';
 
 const App = () => {
 	return (
-		<div>
+		<>
 			<Navigation />
-			<Main />
-			<AboutUs />
-			<Offer />
+			<Header />
+			<main>
+				<AboutUs />
+				<Offer />
+			</main>
 			<Footer />
-		</div>
+		</>
 	);
 };
 

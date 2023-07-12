@@ -16,6 +16,11 @@
 	font-weight: 700;
 	line-height: normal;
 }
+@media (min-width: 991px) {
+	.company-name{
+		padding: 0;
+	}
+}
 
 .footer-container {
 	display: flex;
@@ -25,6 +30,7 @@
 @media (min-width: 991px) {
 	.footer-container {
 		flex-direction: row;
+		align-items: center;
 	}
 }
 
@@ -35,8 +41,8 @@
 	justify-content: center;
 	padding-bottom: 42px;
 }
-/* @media (min-width: 991px) {
+@media (min-width: 991px) {
 	.footer-icons {
-		padding-bottom: none;
+		padding-bottom: 0;
 	}
-} */
+}
