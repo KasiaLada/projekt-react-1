@@ -17,7 +17,7 @@
 	line-height: normal;
 }
 @media (min-width: 991px) {
-	.company-name{
+	.company-name {
 		padding: 0;
 	}
 }
